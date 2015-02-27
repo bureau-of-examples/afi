@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABCB93EF-4D06-4810-A3ED-548D9C3C7B30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterviewQuestions</RootNamespace>
+    <AssemblyName>InterviewQuestions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ch1\Q10AnonymousLetterWritting.cs" />
+    <Compile Include="Ch1\Q11PairingUsers.cs" />
+    <Compile Include="Ch1\Q12FindAMissingInteger.cs" />
+    <Compile Include="Ch1\Q13RobotBattery.cs" />
+    <Compile Include="Ch1\Q14FindMajorityItem.cs" />
+    <Compile Include="Ch1\Q15FindFrequentItems.cs" />
+    <Compile Include="Ch1\Q16SearchBST.cs" />
+    <Compile Include="Ch1\Q17SearchBSTFirstLargeThan.cs" />
+    <Compile Include="Ch1\Q18KthStatisticsOf2Arrays.cs" />
+    <Compile Include="Ch1\Q19LinesInterctInRectangle.cs" />
+    <Compile Include="Ch1\Q1FindSquareRoot.cs" />
+    <Compile Include="Ch1\Q20ContainedInterval.cs" />
+    <Compile Include="Ch1\Q2FindFirstIndex.cs" />
+    <Compile Include="Ch1\Q3FindFirstLargerThan.cs" />
+    <Compile Include="Ch1\Q4FindValueEqualsToIndex.cs" />
+    <Compile Include="Ch1\Q5FindIndexLengthUnknown.cs" />
+    <Compile Include="Ch1\Q6FindMissingNumberIn300M.cs" />
+    <Compile Include="Ch1\Q7IntersectNoDuplicate.cs" />
+    <Compile Include="Ch1\Q8GroupAnagrams.cs" />
+    <Compile Include="Ch1\Q9FindSumPair.cs" />
+    <Compile Include="Ch2\Q10MultiwayMerge.cs" />
+    <Compile Include="Ch2\Q12RunningMean.cs" />
+    <Compile Include="Ch2\Q1SortingWhenToUseWhat.cs" />
+    <Compile Include="Ch2\Q3FindMinMax.cs" />
+    <Compile Include="Ch2\Q7MinDuplicateRowCount.cs" />
+    <Compile Include="Ch2\Q9RemoveDuplicateFirstnames.cs" />
+    <Compile Include="Ch3\Q1LongestNonDecreasingSubsequence.cs" />
+    <Compile Include="Ch3\Q2FrogJump.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
