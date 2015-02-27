@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI", "InterviewQuestions\AFI.csproj", "{ABCB93EF-4D06-4810-A3ED-548D9C3C7B30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI", "AFI\AFI.csproj", "{ABCB93EF-4D06-4810-A3ED-548D9C3C7B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Test", "InterviewQuestions.Test\AFI.Test.csproj", "{A125591E-F77B-495F-9AB8-39FD92BE4518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Test", "AFI.Test\AFI.Test.csproj", "{A125591E-F77B-495F-9AB8-39FD92BE4518}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

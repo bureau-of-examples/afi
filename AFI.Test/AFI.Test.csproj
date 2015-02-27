@@ -57,7 +57,7 @@
     <Compile Include="TestHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InterviewQuestions\AFI.csproj">
+    <ProjectReference Include="..\AFI\AFI.csproj">
       <Project>{abcb93ef-4d06-4810-a3ed-548d9c3c7b30}</Project>
       <Name>AFI</Name>
     </ProjectReference>
